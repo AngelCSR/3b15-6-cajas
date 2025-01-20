@@ -13,27 +13,32 @@ align-items: center;
 }
 #caja img{  max-width: 100%;
     height: auto;
-    opacity: 0.5;}
+    opacity: 1;}
 
  #caja2 img{  max-width: 100%;
-       height: auto;}
+       height: auto;
+       opacity: 1;}
   #caja3 img{  max-width: 100%;
-        height: auto;}
+        height: auto;
+        opacity: 1;}
  #caja4 img{  max-width: 100%;
-            height: auto;}
+            height: auto;
+            opacity: 1;}
  #caja5 img{  max-width: 100%;
-                height: auto;}
+                height: auto;
+                opacity: 1;}
 #caja6 img{  max-width: 100%;
-     height: auto;}
+     height: auto;
+     opacity: 1;}
 #caja{
     width: 30%;
     height: 200px;
     background-color:rgba(74, 230, 133, 0.5);
-    overflow: auto;
-    cursor: text;
+   
     transition: width 2s, height 2s, color 3s;
     box-shadow: 5px 5px 5px #888888;
     padding: 10px;position: relative;
+    opacity: 1;
 }
 #caja:hover{
     width: 200px;
@@ -42,13 +47,15 @@ align-items: center;
     color: antiquewhite;
 }
 #caja1 {
-    width: 30%;
-    height: 200px;
-    background-color:rgba(74, 230, 133, 0.5);
-    overflow: auto;
-    cursor: text;
-    transition: width 2s, height 2s, color 3s;
-    box-shadow: 5px 5px 5px #888888;
+   
+        width: 20%;
+        height: 200px;
+        background-color:rgba(74, 230, 133, 0.5);
+       
+        transition: width 2s, height 2s, color 3s;
+        box-shadow: 5px 5px 5px #888888;
+        padding: 10px;position: relative;
+        opacity: 1;
     
 }
 #caja1:hover{
@@ -58,13 +65,14 @@ align-items: center;
     color: antiquewhite;
 }
 #caja2 {
-    width: 30%;
+    width: 20%;
     height: 200px;
     background-color:rgba(74, 230, 133, 0.5);
-    
+   
     transition: width 2s, height 2s, color 3s;
     box-shadow: 5px 5px 5px #888888;
-    
+    padding: 10px;position: relative;
+    opacity: 1;
 
     
 }
@@ -76,12 +84,14 @@ align-items: center;
    
 }
 #caja3 {
-    width: 30%;
+    width: 20%;
     height: 200px;
     background-color:rgba(74, 230, 133, 0.5);
-    
+   
     transition: width 2s, height 2s, color 3s;
     box-shadow: 5px 5px 5px #888888;
+    padding: 10px;position: relative;
+    opacity: 1;
    
 }
 
@@ -93,13 +103,14 @@ align-items: center;
     color: antiquewhite;
 }
 #caja4 {
-    width: 30%;
+    width: 20%;
     height: 200px;
     background-color:rgba(74, 230, 133, 0.5);
-    overflow: auto;
-    cursor: text;
+   
     transition: width 2s, height 2s, color 3s;
     box-shadow: 5px 5px 5px #888888;
+    padding: 10px;position: relative;
+    opacity: 1;
     
 }
 #caja4:hover{
@@ -109,12 +120,14 @@ align-items: center;
     color: antiquewhite;
 }
 #caja5 {
-    width: 30%;
+    width: 20%;
     height: 200px;
     background-color:rgba(74, 230, 133, 0.5);
    
     transition: width 2s, height 2s, color 3s;
     box-shadow: 5px 5px 5px #888888;
+    padding: 10px;position: relative;
+    opacity: 1;
 }
 #caja5:hover{
     width: 200px;
@@ -123,12 +136,14 @@ align-items: center;
     color: antiquewhite;
 }
 #caja6 {
-    width: 30%;
+    width: 20%;
     height: 200px;
     background-color:rgba(74, 230, 133, 0.5);
-    
+   
     transition: width 2s, height 2s, color 3s;
     box-shadow: 5px 5px 5px #888888;
+    padding: 10px;position: relative;
+    opacity: 1;
 }
 #caja6:hover{
     width: 200px;
